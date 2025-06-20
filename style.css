@@ -1,0 +1,75 @@
+/* Ensure body takes full height and resets margins */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?semt=ais_hybrid&w=740'); /* 🌄 Example image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Outer container centers content horizontally */
+.container {
+  max-width: 600px;
+  margin: 40px auto; /* centers horizontally + space from top */
+  padding: 20px;
+}
+
+/* Styling for the form */
+.center-form {
+    padding: 30px;
+    padding-bottom: 50px; /* extra space below form */
+    background-color: #e6f2ff; /* light blue */
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+/* Table placed below with spacing */
+#secondDiv {
+  margin-top: 100px;
+}
+
+/* Student table styling */
+#studentTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#studentTable thead {
+  background-color: #007bff;
+  color: white;
+}
+
+#studentTable th,
+#studentTable td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#studentTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#studentTable tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Optional: style buttons inside the form */
+button {
+  margin-top: 15px;
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
